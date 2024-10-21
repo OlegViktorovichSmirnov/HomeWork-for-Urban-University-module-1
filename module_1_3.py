@@ -6,4 +6,3 @@ new_age = 18
 print('New age:', age-new_age)
 is_Student = True
 print('Is Student:', is_Student)
-print()
