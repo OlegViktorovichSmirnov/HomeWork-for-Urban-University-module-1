@@ -27,6 +27,7 @@ print(immutable_var)
 #immutable_var[0] = 'God will give us hope'
 
 mutable_list = ([1], ['Воскресенье'], True, 25.5)
+print(mutable_list)
 mutable_list[0][0] = 'Восхождение глупости'
 print(mutable_list)
 
