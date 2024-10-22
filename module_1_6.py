@@ -47,4 +47,4 @@ print(my_string[-1])
 
 #Функция считает количество символов
 
-print(len(my_string))
+print('Количество символов: ', len(my_string))
