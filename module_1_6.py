@@ -45,4 +45,6 @@ print(my_string[0])
 
 print(my_string[-1])
 
+#Функция считает количество символов
+
 print(len(my_string))
