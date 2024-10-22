@@ -44,3 +44,5 @@ print(my_string[0])
 # Вывод последнего символа
 
 print(my_string[-1])
+
+print(len(my_string))
