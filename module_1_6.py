@@ -51,6 +51,7 @@ print(my_set)
 my_set.update({'Donald': 1345, 'Kamala': 1409})
 print(my_set)
 
+
 # Удаляем элемент 'Kamala'
 print(my_set.discard('Kamala'))
 print(my_set)
