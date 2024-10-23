@@ -31,4 +31,13 @@
 # Помните, что множество не является упорядоченной последовательностью. (нужен перевод в другой тип).
 
 grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+average = sum(grades)/len(grades)
+print(average)
+
 students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+list(students)
+
+# так как множество не упорядоченно, то нам необходимо упорядочить его по алфавиту при помощи функции sorted
+student_sorted = sorted(students)
+print('Список студентов: ', student_sorted)
+my_dict = {}
