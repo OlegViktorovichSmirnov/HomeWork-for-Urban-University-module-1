@@ -58,10 +58,10 @@ list(students)
 
 # Так как множество не упорядоченно, то нам необходимо упорядочить его по алфавиту при помощи функции sorted
 
-student_sorted = sorted(students)(
+student_sorted = sorted(students)
 print('Список студентов: ', student_sorted)
 
-# Создаём словарь из списков и упорядоченного множества. Изначально словарь пуст.
+# Создаём словарь из списков и упорядоченного множества.
 
-my_dict = {}
-my_dict = dict(zip)students, grades_changed})
+my_dict = dict(zip(students, grades_changed))
+print(my_dict)
