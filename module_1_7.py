@@ -63,5 +63,5 @@ print('Список студентов: ', student_sorted)
 
 # Создаём словарь из списков и упорядоченного множества.
 
-my_dict = dict(zip(students, grades_changed))
+my_dict = dict(zip(student_sorted, grades_changed))
 print(my_dict)
