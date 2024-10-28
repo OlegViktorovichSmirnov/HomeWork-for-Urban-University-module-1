@@ -23,34 +23,34 @@
 # Создаём словарь, имена неизменяемые, а вот ключи (значения) могут быть изменены
 
 my_dict = {'Alex': 1835, 'Oliver': 2003, 'Agatha': 1974}
-print(my_dict)
-print(my_dict['Alex'])
+print(f'{my_dict}')
+print(f'{my_dict['Alex']}')
 my_dict['Martha'] = 2005
-print(my_dict)
+print(f'{my_dict}')
 
 # Добавление несуществующих элементов
 
 my_dict['Margaret'] = 1675
 my_dict['Den'] = 1984
-print(my_dict)
+print(f'{my_dict}')
 
 # Удаление элемента 'Den'
 
 del my_dict['Den']
-print(my_dict)
+print(f'{my_dict}')
 
 print(my_dict['Margaret'])
-print(my_dict)
+print(f'{my_dict}')
 
 # Множество - остаточно полезный тип данных и тоже представляет собой некую коллекцию. Особенность множеств в том, что эта коллекция хранит уникальные значения.
 
 my_set = {1756, 7.5, 'If Your body falls just get up, if You fall in sins cleanse them in Church', True, 'and again its', False, True, True}
-print(my_set)
+print(f'{my_set}')
 
 # Добавляем 2 несуществующих элемента
 my_set.update({'Donald': 1345, 'Kamala': 1409})
-print(my_set)
+print(f'{my_set}')
 
 # Удаляем элемент 'Kamala'
 print(my_set.discard('Kamala'))
-print(my_set)
+print(f'{my_set}')
