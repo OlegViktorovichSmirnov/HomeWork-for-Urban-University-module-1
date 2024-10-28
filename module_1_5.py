@@ -20,14 +20,14 @@
 # Создаём "кортеж" - это неизменяемая упорядоченная коллекция, которая может содержать в себе разные типы данных.
 
 immutable_var = 'Понедельник', 35, 35.3, False
-print(immutable_var)
+print(f'{immutable_var}')
 
 # При попытке изменения элемента выдаётся ошибка об отсутствии поддержки изменения элементов
 #
 #immutable_var[0] = 'God will give us hope'
 
 mutable_list = ([1], ['Воскресенье'], True, 25.5)
-print(mutable_list)
+print(f'{mutable_list}')
 mutable_list[0][0] = 'Восхождение глупости'
-print(mutable_list)
+print(f'{mutable_list}')
 
