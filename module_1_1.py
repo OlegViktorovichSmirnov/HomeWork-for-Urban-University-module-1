@@ -18,10 +18,14 @@
 #  - Выведите значение переменной is_student на экран.
 
 name = "Oleg"
-print(f'Name: {name}')
+
+# Для того чтобы был красивый вывод с запятой после окончания описания каждого элемента "f'Имя: {name}'" используем
+# f строку, значения помещаем в фигурные скобки
+
+print(f'Имя: {name}')
 age = 44
-print(f'Age: {age}')
+print(f'Возраст: {age}')
 new_age = 18
-print(f'New age: {age-new_age}')
+print(f'Новый возраст: {age-new_age}')
 is_Student = True
-print(f'Is Student: {is_Student}')
+print(f'Является студентом: {is_Student}')
