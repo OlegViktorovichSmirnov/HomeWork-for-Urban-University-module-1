@@ -36,22 +36,22 @@
 grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
 a = [5, 3, 3, 5, 4]
 average_a = sum(a) / len(a)
-print(average_a)
+print(f'{average_a}')
 b = [2, 2, 2, 3]
 average_b = sum(b) / len(b)
-print(average_b)
+print(f'{average_b}')
 c = [4, 5, 5, 2]
 average_c = sum(c) / len(c)
-print(average_c)
+print(f'{average_c}')
 d = [4, 4, 3]
 average_d = sum(d) / len(d)
-print(average_d)
+print(f'{average_d}')
 e = [5, 5, 5, 4, 5]
 average_e = sum(e) / len(e)
-print(average_e)
+print(f'{average_e}')
 
 grades_changed = [average_a, average_b, average_c, average_d, average_e]
-print(grades_changed)
+print(f'{grades_changed}')
 
 students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 list(students)
@@ -59,9 +59,9 @@ list(students)
 # Так как множество не упорядоченно, то нам необходимо упорядочить его по алфавиту при помощи функции sorted
 
 student_sorted = sorted(students)
-print('Список студентов: ', student_sorted)
+print(f'Список студентов: {student_sorted}')
 
 # Создаём словарь из списков и упорядоченного множества.
 
 my_dict = dict(zip(student_sorted, grades_changed))
-print(my_dict)
+print(f'{my_dict}')
