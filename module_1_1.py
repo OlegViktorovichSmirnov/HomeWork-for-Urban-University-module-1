@@ -18,10 +18,10 @@
 #  - Выведите значение переменной is_student на экран.
 
 name = "Oleg"
-print('Name:', name)
+print(f'Name: {name}')
 age = 44
-print('Age:', age)
+print(f'Age: {age}')
 new_age = 18
-print('New age:', age-new_age)
+print(f'New age: {age-new_age}')
 is_Student = True
-print('Is Student:', is_Student)
+print(f'Is Student: {is_Student}')
