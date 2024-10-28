@@ -22,24 +22,24 @@ my_string = input('Введите текст: ')
 
 # Ввод текста в верхнем регистре
 
-print(my_string .upper())
+print(f'{my_string .upper()}')
 
 # Ввод текста в нижнем регистре
 
-print(my_string .lower())
+print(f'{my_string .lower()}')
 
 # Вывод текста заменив все пробелы на "#"
 
-print(my_string .replace(' ', '#'))
+print(f'{my_string .replace(' ', '#')}')
 
 # Вывод первого символа
 
-print(my_string[0])
+print(f'{my_string[0]}')
 
 # Вывод последнего символа
 
-print(my_string[-1])
+print(f'{my_string[-1]}')
 
 #Функция считает количество символов
 
-print('Количество символов: ', len(my_string))
+print(f'Количество символов: {len(my_string)}')
