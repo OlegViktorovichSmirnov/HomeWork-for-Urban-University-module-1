@@ -65,3 +65,4 @@ print(f'Список студентов: {student_sorted}')
 
 my_dict = dict(zip(student_sorted, grades_changed))
 print(f'{my_dict}')
+
